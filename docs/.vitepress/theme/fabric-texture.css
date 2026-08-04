@@ -20,7 +20,9 @@
   --fabric-pattern-b: 0;
 
   /* ── 全局字体 ── */
-  --vp-font-family-base: "Douyin Sans", "Inter", ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  --vp-font-family-base:
+    "Douyin Sans", "Inter", ui-sans-serif, system-ui, sans-serif,
+    "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
 
 .dark {
@@ -38,15 +40,39 @@ html {
       90deg,
       transparent,
       transparent 2px,
-      rgba(var(--fabric-pattern-r), var(--fabric-pattern-g), var(--fabric-pattern-b), var(--fabric-linen-opacity)) 2px,
-      rgba(var(--fabric-pattern-r), var(--fabric-pattern-g), var(--fabric-pattern-b), var(--fabric-linen-opacity)) 4px
+      rgba(
+          var(--fabric-pattern-r),
+          var(--fabric-pattern-g),
+          var(--fabric-pattern-b),
+          var(--fabric-linen-opacity)
+        )
+        2px,
+      rgba(
+          var(--fabric-pattern-r),
+          var(--fabric-pattern-g),
+          var(--fabric-pattern-b),
+          var(--fabric-linen-opacity)
+        )
+        4px
     ),
     repeating-linear-gradient(
       0deg,
       transparent,
       transparent 2px,
-      rgba(var(--fabric-pattern-r), var(--fabric-pattern-g), var(--fabric-pattern-b), var(--fabric-linen-opacity)) 2px,
-      rgba(var(--fabric-pattern-r), var(--fabric-pattern-g), var(--fabric-pattern-b), var(--fabric-linen-opacity)) 4px
+      rgba(
+          var(--fabric-pattern-r),
+          var(--fabric-pattern-g),
+          var(--fabric-pattern-b),
+          var(--fabric-linen-opacity)
+        )
+        2px,
+      rgba(
+          var(--fabric-pattern-r),
+          var(--fabric-pattern-g),
+          var(--fabric-pattern-b),
+          var(--fabric-linen-opacity)
+        )
+        4px
     );
 }
 
@@ -72,15 +98,39 @@ body {
       90deg,
       transparent,
       transparent 2px,
-      rgba(var(--fabric-pattern-r), var(--fabric-pattern-g), var(--fabric-pattern-b), var(--fabric-linen-opacity)) 2px,
-      rgba(var(--fabric-pattern-r), var(--fabric-pattern-g), var(--fabric-pattern-b), var(--fabric-linen-opacity)) 4px
+      rgba(
+          var(--fabric-pattern-r),
+          var(--fabric-pattern-g),
+          var(--fabric-pattern-b),
+          var(--fabric-linen-opacity)
+        )
+        2px,
+      rgba(
+          var(--fabric-pattern-r),
+          var(--fabric-pattern-g),
+          var(--fabric-pattern-b),
+          var(--fabric-linen-opacity)
+        )
+        4px
     ),
     repeating-linear-gradient(
       0deg,
       transparent,
       transparent 2px,
-      rgba(var(--fabric-pattern-r), var(--fabric-pattern-g), var(--fabric-pattern-b), var(--fabric-linen-opacity)) 2px,
-      rgba(var(--fabric-pattern-r), var(--fabric-pattern-g), var(--fabric-pattern-b), var(--fabric-linen-opacity)) 4px
+      rgba(
+          var(--fabric-pattern-r),
+          var(--fabric-pattern-g),
+          var(--fabric-pattern-b),
+          var(--fabric-linen-opacity)
+        )
+        2px,
+      rgba(
+          var(--fabric-pattern-r),
+          var(--fabric-pattern-g),
+          var(--fabric-pattern-b),
+          var(--fabric-linen-opacity)
+        )
+        4px
     ) !important;
 }
 
@@ -100,15 +150,39 @@ body {
       90deg,
       transparent,
       transparent 2px,
-      rgba(var(--fabric-pattern-r), var(--fabric-pattern-g), var(--fabric-pattern-b), var(--fabric-linen-opacity)) 2px,
-      rgba(var(--fabric-pattern-r), var(--fabric-pattern-g), var(--fabric-pattern-b), var(--fabric-linen-opacity)) 4px
+      rgba(
+          var(--fabric-pattern-r),
+          var(--fabric-pattern-g),
+          var(--fabric-pattern-b),
+          var(--fabric-linen-opacity)
+        )
+        2px,
+      rgba(
+          var(--fabric-pattern-r),
+          var(--fabric-pattern-g),
+          var(--fabric-pattern-b),
+          var(--fabric-linen-opacity)
+        )
+        4px
     ),
     repeating-linear-gradient(
       0deg,
       transparent,
       transparent 2px,
-      rgba(var(--fabric-pattern-r), var(--fabric-pattern-g), var(--fabric-pattern-b), var(--fabric-linen-opacity)) 2px,
-      rgba(var(--fabric-pattern-r), var(--fabric-pattern-g), var(--fabric-pattern-b), var(--fabric-linen-opacity)) 4px
+      rgba(
+          var(--fabric-pattern-r),
+          var(--fabric-pattern-g),
+          var(--fabric-pattern-b),
+          var(--fabric-linen-opacity)
+        )
+        2px,
+      rgba(
+          var(--fabric-pattern-r),
+          var(--fabric-pattern-g),
+          var(--fabric-pattern-b),
+          var(--fabric-linen-opacity)
+        )
+        4px
     ) !important;
 }
 
@@ -120,15 +194,39 @@ body {
       90deg,
       transparent,
       transparent 2px,
-      rgba(var(--fabric-pattern-r), var(--fabric-pattern-g), var(--fabric-pattern-b), var(--fabric-linen-opacity)) 2px,
-      rgba(var(--fabric-pattern-r), var(--fabric-pattern-g), var(--fabric-pattern-b), var(--fabric-linen-opacity)) 4px
+      rgba(
+          var(--fabric-pattern-r),
+          var(--fabric-pattern-g),
+          var(--fabric-pattern-b),
+          var(--fabric-linen-opacity)
+        )
+        2px,
+      rgba(
+          var(--fabric-pattern-r),
+          var(--fabric-pattern-g),
+          var(--fabric-pattern-b),
+          var(--fabric-linen-opacity)
+        )
+        4px
     ),
     repeating-linear-gradient(
       0deg,
       transparent,
       transparent 2px,
-      rgba(var(--fabric-pattern-r), var(--fabric-pattern-g), var(--fabric-pattern-b), var(--fabric-linen-opacity)) 2px,
-      rgba(var(--fabric-pattern-r), var(--fabric-pattern-g), var(--fabric-pattern-b), var(--fabric-linen-opacity)) 4px
+      rgba(
+          var(--fabric-pattern-r),
+          var(--fabric-pattern-g),
+          var(--fabric-pattern-b),
+          var(--fabric-linen-opacity)
+        )
+        2px,
+      rgba(
+          var(--fabric-pattern-r),
+          var(--fabric-pattern-g),
+          var(--fabric-pattern-b),
+          var(--fabric-linen-opacity)
+        )
+        4px
     ) !important;
 }
 
@@ -140,15 +238,39 @@ body {
       90deg,
       transparent,
       transparent 2px,
-      rgba(var(--fabric-pattern-r), var(--fabric-pattern-g), var(--fabric-pattern-b), var(--fabric-linen-opacity)) 2px,
-      rgba(var(--fabric-pattern-r), var(--fabric-pattern-g), var(--fabric-pattern-b), var(--fabric-linen-opacity)) 4px
+      rgba(
+          var(--fabric-pattern-r),
+          var(--fabric-pattern-g),
+          var(--fabric-pattern-b),
+          var(--fabric-linen-opacity)
+        )
+        2px,
+      rgba(
+          var(--fabric-pattern-r),
+          var(--fabric-pattern-g),
+          var(--fabric-pattern-b),
+          var(--fabric-linen-opacity)
+        )
+        4px
     ),
     repeating-linear-gradient(
       0deg,
       transparent,
       transparent 2px,
-      rgba(var(--fabric-pattern-r), var(--fabric-pattern-g), var(--fabric-pattern-b), var(--fabric-linen-opacity)) 2px,
-      rgba(var(--fabric-pattern-r), var(--fabric-pattern-g), var(--fabric-pattern-b), var(--fabric-linen-opacity)) 4px
+      rgba(
+          var(--fabric-pattern-r),
+          var(--fabric-pattern-g),
+          var(--fabric-pattern-b),
+          var(--fabric-linen-opacity)
+        )
+        2px,
+      rgba(
+          var(--fabric-pattern-r),
+          var(--fabric-pattern-g),
+          var(--fabric-pattern-b),
+          var(--fabric-linen-opacity)
+        )
+        4px
     ) !important;
 }
 
@@ -160,15 +282,39 @@ body {
       90deg,
       transparent,
       transparent 2px,
-      rgba(var(--fabric-pattern-r), var(--fabric-pattern-g), var(--fabric-pattern-b), var(--fabric-linen-opacity)) 2px,
-      rgba(var(--fabric-pattern-r), var(--fabric-pattern-g), var(--fabric-pattern-b), var(--fabric-linen-opacity)) 4px
+      rgba(
+          var(--fabric-pattern-r),
+          var(--fabric-pattern-g),
+          var(--fabric-pattern-b),
+          var(--fabric-linen-opacity)
+        )
+        2px,
+      rgba(
+          var(--fabric-pattern-r),
+          var(--fabric-pattern-g),
+          var(--fabric-pattern-b),
+          var(--fabric-linen-opacity)
+        )
+        4px
     ),
     repeating-linear-gradient(
       0deg,
       transparent,
       transparent 2px,
-      rgba(var(--fabric-pattern-r), var(--fabric-pattern-g), var(--fabric-pattern-b), var(--fabric-linen-opacity)) 2px,
-      rgba(var(--fabric-pattern-r), var(--fabric-pattern-g), var(--fabric-pattern-b), var(--fabric-linen-opacity)) 4px
+      rgba(
+          var(--fabric-pattern-r),
+          var(--fabric-pattern-g),
+          var(--fabric-pattern-b),
+          var(--fabric-linen-opacity)
+        )
+        2px,
+      rgba(
+          var(--fabric-pattern-r),
+          var(--fabric-pattern-g),
+          var(--fabric-pattern-b),
+          var(--fabric-linen-opacity)
+        )
+        4px
     ) !important;
 }
 
@@ -180,15 +326,39 @@ body {
       90deg,
       transparent,
       transparent 2px,
-      rgba(var(--fabric-pattern-r), var(--fabric-pattern-g), var(--fabric-pattern-b), var(--fabric-linen-opacity)) 2px,
-      rgba(var(--fabric-pattern-r), var(--fabric-pattern-g), var(--fabric-pattern-b), var(--fabric-linen-opacity)) 4px
+      rgba(
+          var(--fabric-pattern-r),
+          var(--fabric-pattern-g),
+          var(--fabric-pattern-b),
+          var(--fabric-linen-opacity)
+        )
+        2px,
+      rgba(
+          var(--fabric-pattern-r),
+          var(--fabric-pattern-g),
+          var(--fabric-pattern-b),
+          var(--fabric-linen-opacity)
+        )
+        4px
     ),
     repeating-linear-gradient(
       0deg,
       transparent,
       transparent 2px,
-      rgba(var(--fabric-pattern-r), var(--fabric-pattern-g), var(--fabric-pattern-b), var(--fabric-linen-opacity)) 2px,
-      rgba(var(--fabric-pattern-r), var(--fabric-pattern-g), var(--fabric-pattern-b), var(--fabric-linen-opacity)) 4px
+      rgba(
+          var(--fabric-pattern-r),
+          var(--fabric-pattern-g),
+          var(--fabric-pattern-b),
+          var(--fabric-linen-opacity)
+        )
+        2px,
+      rgba(
+          var(--fabric-pattern-r),
+          var(--fabric-pattern-g),
+          var(--fabric-pattern-b),
+          var(--fabric-linen-opacity)
+        )
+        4px
     );
   border-radius: 12px;
   padding: 24px 32px;
@@ -201,19 +371,41 @@ body {
       90deg,
       transparent,
       transparent 2px,
-      rgba(var(--fabric-pattern-r), var(--fabric-pattern-g), var(--fabric-pattern-b), var(--fabric-linen-opacity)) 2px,
-      rgba(var(--fabric-pattern-r), var(--fabric-pattern-g), var(--fabric-pattern-b), var(--fabric-linen-opacity)) 4px
+      rgba(
+          var(--fabric-pattern-r),
+          var(--fabric-pattern-g),
+          var(--fabric-pattern-b),
+          var(--fabric-linen-opacity)
+        )
+        2px,
+      rgba(
+          var(--fabric-pattern-r),
+          var(--fabric-pattern-g),
+          var(--fabric-pattern-b),
+          var(--fabric-linen-opacity)
+        )
+        4px
     ),
     repeating-linear-gradient(
       0deg,
       transparent,
       transparent 2px,
-      rgba(var(--fabric-pattern-r), var(--fabric-pattern-g), var(--fabric-pattern-b), var(--fabric-linen-opacity)) 2px,
-      rgba(var(--fabric-pattern-r), var(--fabric-pattern-g), var(--fabric-pattern-b), var(--fabric-linen-opacity)) 4px
+      rgba(
+          var(--fabric-pattern-r),
+          var(--fabric-pattern-g),
+          var(--fabric-pattern-b),
+          var(--fabric-linen-opacity)
+        )
+        2px,
+      rgba(
+          var(--fabric-pattern-r),
+          var(--fabric-pattern-g),
+          var(--fabric-pattern-b),
+          var(--fabric-linen-opacity)
+        )
+        4px
     ) !important;
 }
-
-
 
 /* ==================== 自定义块 ==================== */
 .custom-block {
@@ -222,25 +414,51 @@ body {
       90deg,
       transparent,
       transparent 2px,
-      rgba(var(--fabric-pattern-r), var(--fabric-pattern-g), var(--fabric-pattern-b), var(--fabric-linen-opacity)) 2px,
-      rgba(var(--fabric-pattern-r), var(--fabric-pattern-g), var(--fabric-pattern-b), var(--fabric-linen-opacity)) 4px
+      rgba(
+          var(--fabric-pattern-r),
+          var(--fabric-pattern-g),
+          var(--fabric-pattern-b),
+          var(--fabric-linen-opacity)
+        )
+        2px,
+      rgba(
+          var(--fabric-pattern-r),
+          var(--fabric-pattern-g),
+          var(--fabric-pattern-b),
+          var(--fabric-linen-opacity)
+        )
+        4px
     ),
     repeating-linear-gradient(
       0deg,
       transparent,
       transparent 2px,
-      rgba(var(--fabric-pattern-r), var(--fabric-pattern-g), var(--fabric-pattern-b), var(--fabric-linen-opacity)) 2px,
-      rgba(var(--fabric-pattern-r), var(--fabric-pattern-g), var(--fabric-pattern-b), var(--fabric-linen-opacity)) 4px
+      rgba(
+          var(--fabric-pattern-r),
+          var(--fabric-pattern-g),
+          var(--fabric-pattern-b),
+          var(--fabric-linen-opacity)
+        )
+        2px,
+      rgba(
+          var(--fabric-pattern-r),
+          var(--fabric-pattern-g),
+          var(--fabric-pattern-b),
+          var(--fabric-linen-opacity)
+        )
+        4px
     );
 }
-
-
 
 /* ==================== 分隔线 ==================== */
 hr {
   border: none !important;
   height: 2px !important;
-  background: linear-gradient(90deg, var(--vp-c-border) 0%, transparent 100%) !important;
+  background: linear-gradient(
+    90deg,
+    var(--vp-c-border) 0%,
+    transparent 100%
+  ) !important;
 }
 
 /* ==================== 页脚 ==================== */
@@ -251,15 +469,39 @@ hr {
       90deg,
       transparent,
       transparent 2px,
-      rgba(var(--fabric-pattern-r), var(--fabric-pattern-g), var(--fabric-pattern-b), var(--fabric-linen-opacity)) 2px,
-      rgba(var(--fabric-pattern-r), var(--fabric-pattern-g), var(--fabric-pattern-b), var(--fabric-linen-opacity)) 4px
+      rgba(
+          var(--fabric-pattern-r),
+          var(--fabric-pattern-g),
+          var(--fabric-pattern-b),
+          var(--fabric-linen-opacity)
+        )
+        2px,
+      rgba(
+          var(--fabric-pattern-r),
+          var(--fabric-pattern-g),
+          var(--fabric-pattern-b),
+          var(--fabric-linen-opacity)
+        )
+        4px
     ),
     repeating-linear-gradient(
       0deg,
       transparent,
       transparent 2px,
-      rgba(var(--fabric-pattern-r), var(--fabric-pattern-g), var(--fabric-pattern-b), var(--fabric-linen-opacity)) 2px,
-      rgba(var(--fabric-pattern-r), var(--fabric-pattern-g), var(--fabric-pattern-b), var(--fabric-linen-opacity)) 4px
+      rgba(
+          var(--fabric-pattern-r),
+          var(--fabric-pattern-g),
+          var(--fabric-pattern-b),
+          var(--fabric-linen-opacity)
+        )
+        2px,
+      rgba(
+          var(--fabric-pattern-r),
+          var(--fabric-pattern-g),
+          var(--fabric-pattern-b),
+          var(--fabric-linen-opacity)
+        )
+        4px
     );
   border-top: 1px solid var(--vp-c-border);
 }
@@ -272,15 +514,39 @@ hr {
       90deg,
       transparent,
       transparent 2px,
-      rgba(var(--fabric-pattern-r), var(--fabric-pattern-g), var(--fabric-pattern-b), var(--fabric-linen-opacity)) 2px,
-      rgba(var(--fabric-pattern-r), var(--fabric-pattern-g), var(--fabric-pattern-b), var(--fabric-linen-opacity)) 4px
+      rgba(
+          var(--fabric-pattern-r),
+          var(--fabric-pattern-g),
+          var(--fabric-pattern-b),
+          var(--fabric-linen-opacity)
+        )
+        2px,
+      rgba(
+          var(--fabric-pattern-r),
+          var(--fabric-pattern-g),
+          var(--fabric-pattern-b),
+          var(--fabric-linen-opacity)
+        )
+        4px
     ),
     repeating-linear-gradient(
       0deg,
       transparent,
       transparent 2px,
-      rgba(var(--fabric-pattern-r), var(--fabric-pattern-g), var(--fabric-pattern-b), var(--fabric-linen-opacity)) 2px,
-      rgba(var(--fabric-pattern-r), var(--fabric-pattern-g), var(--fabric-pattern-b), var(--fabric-linen-opacity)) 4px
+      rgba(
+          var(--fabric-pattern-r),
+          var(--fabric-pattern-g),
+          var(--fabric-pattern-b),
+          var(--fabric-linen-opacity)
+        )
+        2px,
+      rgba(
+          var(--fabric-pattern-r),
+          var(--fabric-pattern-g),
+          var(--fabric-pattern-b),
+          var(--fabric-linen-opacity)
+        )
+        4px
     );
 }
 
@@ -291,14 +557,38 @@ hr {
       45deg,
       transparent,
       transparent 1px,
-      rgba(var(--fabric-pattern-r), var(--fabric-pattern-g), var(--fabric-pattern-b), var(--fabric-canvas-opacity)) 1px,
-      rgba(var(--fabric-pattern-r), var(--fabric-pattern-g), var(--fabric-pattern-b), var(--fabric-canvas-opacity)) 2px
+      rgba(
+          var(--fabric-pattern-r),
+          var(--fabric-pattern-g),
+          var(--fabric-pattern-b),
+          var(--fabric-canvas-opacity)
+        )
+        1px,
+      rgba(
+          var(--fabric-pattern-r),
+          var(--fabric-pattern-g),
+          var(--fabric-pattern-b),
+          var(--fabric-canvas-opacity)
+        )
+        2px
     ),
     repeating-linear-gradient(
       -45deg,
       transparent,
       transparent 1px,
-      rgba(var(--fabric-pattern-r), var(--fabric-pattern-g), var(--fabric-pattern-b), var(--fabric-canvas-opacity)) 1px,
-      rgba(var(--fabric-pattern-r), var(--fabric-pattern-g), var(--fabric-pattern-b), var(--fabric-canvas-opacity)) 2px
+      rgba(
+          var(--fabric-pattern-r),
+          var(--fabric-pattern-g),
+          var(--fabric-pattern-b),
+          var(--fabric-canvas-opacity)
+        )
+        1px,
+      rgba(
+          var(--fabric-pattern-r),
+          var(--fabric-pattern-g),
+          var(--fabric-pattern-b),
+          var(--fabric-canvas-opacity)
+        )
+        2px
     );
 }
