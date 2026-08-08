@@ -29,7 +29,7 @@ features:
   - icon: 🏠
     title: 宿舍电费
     details: 电量余额，随手可查。低电提醒，让生活不断电。
-    link: /features/dorm
+    link: /features/electricity
   - icon: 🍜
     title: 食堂菜品
     details: 想吃什么，先看一眼。全校比价、窗口评分排行，干饭不踩雷。

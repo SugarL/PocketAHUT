@@ -11,7 +11,7 @@
 
 ## 支持哪些平台？
 
-支持 iOS、Android 和微信小程序，数据互通。详见 [下载安装](/guide/install)。
+目前支持 Android 和微信小程序，数据互通。iOS 和网页端正在开发中。详见 [下载安装](/guide/install)。
 
 ---
 

@@ -62,7 +62,8 @@
 
 - [查询宿舍用电](/features/electricity)
 - [查询电费余额](/features/electricity)
-- [查看宿舍相关生活服务信息](/features/dorm)
+- [宿舍签到](/features/dorm)
+- [洗衣机查询](/features/laundry)
 
 ## 智慧校园
 
@@ -89,4 +90,5 @@
 
 - [查看校园通知](/features/notifications)
 - [查看校园公告](/features/news)
+- [校园网查询](/features/network)
 - 使用智慧校园相关服务能力

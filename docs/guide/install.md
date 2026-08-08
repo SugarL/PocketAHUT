@@ -49,15 +49,8 @@ Android 客户端是目前推荐的新用户使用方式，请前往 [GitHub Rel
 
 ## iOS
 
-iOS 客户端通过 GitHub Releases 分发 IPA 安装包，请前往 [PocketAHUT Releases](https://github.com/zreason-group/PocketAHUT/releases/) 下载最新版本。
-
-1. 打开 [口袋安小工 Releases](https://github.com/zreason-group/PocketAHUT/releases/)
-2. 选择最新版本（Latest）
-3. 在 Assets 中下载 `.ipa` 安装包
-4. 按照你使用的安装工具完成安装
-
-::: warning 安装提醒
-IPA 安装通常需要配合签名工具或其他受信任的安装方式，请确保安装来源可靠。
+::: warning 暂未发布
+iOS 客户端正在开发中，暂未开放正式版本。后续将通过 [GitHub Releases](https://github.com/zreason-group/PocketAHUT/releases/) 分发 IPA 安装包。
 :::
 
 ## 网页端

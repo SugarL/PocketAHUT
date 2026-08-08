@@ -117,19 +117,23 @@ export default defineConfig({
             { text: "👕 洗衣机", link: "/features/laundry" },
             { text: "🍜 食堂 & 打分", link: "/features/canteen" },
             { text: "📰 校园新闻", link: "/features/news" },
+            { text: "📶 校园网", link: "/features/network" },
+            { text: "📋 校园信息", link: "/features/campus-info" },
           ],
         },
         {
           text: "实用工具",
-          items: [{ text: "🏃 体测计算器", link: "/features/fitness-test" }],
+          items: [
+            { text: "🏃 体测计算器", link: "/features/fitness-test" },
+            { text: "📚 图书馆检索", link: "/features/library" },
+            { text: "🗺️ 校园地图", link: "/features/map" },
+          ],
         },
         {
           text: "即将上线",
           collapsed: true,
           items: [
             { text: "💳 校园卡", link: "/features/card" },
-            { text: "📚 图书馆", link: "/features/library" },
-            { text: "🗺️ 校园导览", link: "/features/map" },
             { text: "🔔 消息通知", link: "/features/notifications" },
           ],
         },

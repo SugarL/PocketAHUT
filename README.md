@@ -59,13 +59,18 @@
 - [洗衣机查询](./features/laundry.md)：查看洗衣机空闲状态，减少来回等待。
 - [食堂菜品与打分](./features/canteen.md)：查看食堂菜品、窗口评分与干饭参考。
 - [校园新闻](./features/news.md)：获取校园新闻与公告动态。
+- [校园网](./features/network.md)：查询校园网账户状态、在线设备和上网记录。
+- [校园信息](./features/campus-info.md)：校园黄页，各部门联系方式、校车时刻等。
 
-### 实用工具与规划功能
+### 实用工具
 
 - [体测计算器](./features/fitness-test.md)：快速计算体测分数和等级。
+- [图书馆检索](./features/library.md)：检索馆藏图书，查看可借状态。
+- [校园地图](./features/map.md)：校园地点检索与导航。
+
+### 规划中
+
 - [校园卡](./features/card.md)：校园卡相关能力规划中。
-- [图书馆](./features/library.md)：图书馆相关能力规划中。
-- [校园导览](./features/map.md)：校园地图与导览能力规划中。
 - [消息通知](./features/notifications.md)：消息通知能力规划中。
 
 ## 可绑定的学校系统

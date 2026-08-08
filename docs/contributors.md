@@ -27,9 +27,9 @@ sidebar: false
     <strong>natoo</strong>
     <span>安卓开发</span>
   </a>
-  <a href="https://github.com/YiHui020" target="_blank" rel="noopener noreferrer" class="contributor-card">
-    <img src="https://avatars.githubusercontent.com/YiHui020?v=4" alt="惠" />
-    <strong>惠</strong>
+  <a href="https://github.com/SugarL" target="_blank" rel="noopener noreferrer" class="contributor-card">
+    <img src="https://avatars.githubusercontent.com/SugarL?v=4" alt="惠" />
+    <strong>SugarL</strong>
     <span>IOS开发</span>
   </a>
   <a href="https://github.com/AdwanHu" target="_blank" rel="noopener noreferrer" class="contributor-card">
@@ -37,6 +37,17 @@ sidebar: false
     <strong>Adwan</strong>
     <span>贡献者</span>
   </a>
+    <a href="https://github.com/dingyuanyuan1100-bot" target="_blank" rel="noopener noreferrer" class="contributor-card">
+    <img src="https://avatars.githubusercontent.com/dingyuanyuan1100-bot?v=4" alt="Adwan" />
+    <strong>jikemiao</strong>
+    <span>贡献者</span>
+  </a>
+    <a href="https://github.com/ai-li99" target="_blank" rel="noopener noreferrer" class="contributor-card">
+    <img src="https://avatars.githubusercontent.com/ai-li99?v=4" alt="Adwan" />
+    <strong>ai-li99</strong>
+    <span>贡献者</span>
+  </a>
+
   <a href="https://github.com/changantuanzi" target="_blank" rel="noopener noreferrer" class="contributor-card">
     <img src="https://avatars.githubusercontent.com/changantuanzi?v=4" alt="changantuanzi" />
     <strong>changantuanzi</strong>
