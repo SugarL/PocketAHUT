@@ -7,56 +7,17 @@ sidebar: false
 感谢所有为 口袋安小工 做出贡献的小伙伴！🎉
 
 <div class="contributors-grid">
-  <a href="https://github.com/domye" target="_blank" rel="noopener noreferrer" class="contributor-card">
-    <img src="https://avatars.githubusercontent.com/u/67504754?v=4" alt="Domye" />
-    <strong>Domye</strong>
-    <span>核心开发</span>
-  </a>
-  <a href="https://github.com/Feather-P" target="_blank" rel="noopener noreferrer" class="contributor-card">
-    <img src="https://avatars.githubusercontent.com/u/142159803?v=4" alt="FeatherP" />
-    <strong>FeatherP</strong>
-    <span>架构 & 维护</span>
-  </a>
-  <a href="https://github.com/sure141319" target="_blank" rel="noopener noreferrer" class="contributor-card">
-    <img src="https://avatars.githubusercontent.com/sure141319?v=4" alt="sure" />
-    <strong>sure</strong>
-    <span>开发 & 测试</span>
-  </a>
-    <a href="https://github.com/natoovO" target="_blank" rel="noopener noreferrer" class="contributor-card">
-    <img src="https://avatars.githubusercontent.com/natoovO?v=4" alt="natoo" />
-    <strong>natoo</strong>
-    <span>安卓开发</span>
-  </a>
-  <a href="https://github.com/SugarL" target="_blank" rel="noopener noreferrer" class="contributor-card">
-    <img src="https://avatars.githubusercontent.com/SugarL?v=4" alt="惠" />
-    <strong>SugarL</strong>
-    <span>IOS开发</span>
-  </a>
-  <a href="https://github.com/AdwanHu" target="_blank" rel="noopener noreferrer" class="contributor-card">
-    <img src="https://avatars.githubusercontent.com/AdwanHu?v=4" alt="Adwan" />
-    <strong>Adwan</strong>
-    <span>贡献者</span>
-  </a>
-    <a href="https://github.com/dingyuanyuan1100-bot" target="_blank" rel="noopener noreferrer" class="contributor-card">
-    <img src="https://avatars.githubusercontent.com/dingyuanyuan1100-bot?v=4" alt="Adwan" />
-    <strong>jikemiao</strong>
-    <span>贡献者</span>
-  </a>
-    <a href="https://github.com/ai-li99" target="_blank" rel="noopener noreferrer" class="contributor-card">
-    <img src="https://avatars.githubusercontent.com/ai-li99?v=4" alt="Adwan" />
-    <strong>ai-li99</strong>
-    <span>贡献者</span>
-  </a>
-
-  <a href="https://github.com/changantuanzi" target="_blank" rel="noopener noreferrer" class="contributor-card">
-    <img src="https://avatars.githubusercontent.com/changantuanzi?v=4" alt="changantuanzi" />
-    <strong>changantuanzi</strong>
-    <span>贡献者</span>
-  </a>
-  <a href="https://github.com/HydroHan" target="_blank" rel="noopener noreferrer" class="contributor-card">
-    <img src="https://avatars.githubusercontent.com/HydroHan?v=4" alt="Yukun Han" />
-    <strong>Yukun Han</strong>
-    <span>贡献者</span>
+  <a
+    v-for="c in contributors"
+    :key="c.username"
+    :href="`https://github.com/${c.username}`"
+    target="_blank"
+    rel="noopener noreferrer"
+    class="contributor-card"
+  >
+    <img :src="`https://avatars.githubusercontent.com/${c.uid || c.username}?v=4`" :alt="c.name" />
+    <strong>{{ c.name }}</strong>
+    <span>{{ c.role }}</span>
   </a>
 </div>
 
@@ -65,32 +26,7 @@ sidebar: false
 感谢以下同学对 口袋安小工 的捐赠支持！排名不分先后！
 
 <div class="donors-grid">
-  <span class="donor-tag">*厘</span>
-  <span class="donor-tag">*七</span>
-  <span class="donor-tag">(*)</span>
-  <span class="donor-tag">*桐</span>
-  <span class="donor-tag">*。</span>
-  <span class="donor-tag">@*y</span>
-  <span class="donor-tag">*之</span>
-  <span class="donor-tag">*明</span>
-  <span class="donor-tag">*崚</span>
-  <span class="donor-tag">E*e</span>
-  <span class="donor-tag">*酌</span>
-  <span class="donor-tag">**婷</span>
-  <span class="donor-tag">r*n</span>
-  <span class="donor-tag">C*e</span>
-  <span class="donor-tag">*🎀</span>
-  <span class="donor-tag">*饿</span>
-  <span class="donor-tag">*峰</span>
-  <span class="donor-tag">**浩</span>
-  <span class="donor-tag">T*i</span>
-  <span class="donor-tag">*印</span>
-  <span class="donor-tag">*速</span>
-  <span class="donor-tag">w*m</span>
-  <span class="donor-tag">*朗</span>
-  <span class="donor-tag">*家</span>
-  <span class="donor-tag">*郎</span>
-  <span class="donor-tag">*生</span>
+  <span v-for="name in donors" :key="name" class="donor-tag">{{ name }}</span>
 </div>
 
 ## 成为贡献者
@@ -101,34 +37,29 @@ sidebar: false
 - **反馈问题**：在 [GitHub Issues](https://github.com/zreason-group/PocketAHUT/issues) 提交 Bug 或建议
 - **完善文档**：点击每页底部的「在 GitHub 上编辑此页」直接修改
 
+<script setup>
+const contributors = [
+  { username: "domye", uid: "u/67504754", name: "Domye", role: "核心开发" },
+  { username: "Feather-P", uid: "u/142159803", name: "FeatherP", role: "架构 & 维护" },
+  { username: "sure141319", name: "sure", role: "开发 & 测试" },
+  { username: "natoovO", name: "natoo", role: "安卓开发" },
+  { username: "SugarL", name: "SugarL", role: "iOS 开发" },
+  { username: "AdwanHu", name: "Adwan", role: "贡献者" },
+  { username: "dingyuanyuan1100-bot", name: "jikemiao", role: "贡献者" },
+  { username: "ai-li99", name: "ai-li99", role: "贡献者" },
+  { username: "changantuanzi", name: "changantuanzi", role: "贡献者" },
+  { username: "HydroHan", name: "Yukun Han", role: "贡献者" },
+];
+
+const donors = [
+  "*厘", "*七", "(*)", "*桐", "*。", "@*y", "*之", "*明",
+  "*崚", "E*e", "*酌", "**婷", "r*n", "C*e", "*🎀", "*饿",
+  "*峰", "**浩", "T*i", "*印", "*速", "w*m", "*朗", "*家",
+  "*郎", "*生",
+];
+</script>
+
 <style scoped>
-.donors-grid {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 0.6rem;
-  margin: 1rem 0 2rem;
-}
-
-.donor-tag {
-  display: inline-flex;
-  align-items: center;
-  padding: 0.35rem 0.9rem;
-  border: 1px solid var(--vp-c-border);
-  border-radius: 20px;
-  font-size: 0.85rem;
-  color: var(--vp-c-text-2);
-  background: var(--vp-c-bg-soft);
-  transition: transform 0.15s, box-shadow 0.15s, border-color 0.15s;
-  user-select: none;
-}
-
-.donor-tag:hover {
-  transform: translateY(-2px);
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
-  border-color: var(--vp-c-brand-2);
-  color: var(--vp-c-brand-1);
-}
-
 .contributors-grid {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
@@ -174,5 +105,32 @@ sidebar: false
   color: var(--vp-c-text-3);
   line-height: 1.2;
   text-align: center;
+}
+
+.donors-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.6rem;
+  margin: 1rem 0 2rem;
+}
+
+.donor-tag {
+  display: inline-flex;
+  align-items: center;
+  padding: 0.35rem 0.9rem;
+  border: 1px solid var(--vp-c-border);
+  border-radius: 20px;
+  font-size: 0.85rem;
+  color: var(--vp-c-text-2);
+  background: var(--vp-c-bg-soft);
+  transition: transform 0.15s, box-shadow 0.15s, border-color 0.15s;
+  user-select: none;
+}
+
+.donor-tag:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  border-color: var(--vp-c-brand-2);
+  color: var(--vp-c-brand-1);
 }
 </style>
