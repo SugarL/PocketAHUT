@@ -105,6 +105,7 @@ export default defineConfig({
             { text: "📝 考试安排", link: "/features/exam" },
             { text: "📖 培养方案", link: "/features/training-plan" },
             { text: "📕 教材查询", link: "/features/textbooks" },
+            { text: "📆 校历", link: "/features/calendar" },
           ],
         },
         {
@@ -127,6 +128,14 @@ export default defineConfig({
             { text: "🏃 体测计算器", link: "/features/fitness-test" },
             { text: "📚 图书馆检索", link: "/features/library" },
             { text: "🗺️ 校园地图", link: "/features/map" },
+          ],
+        },
+        {
+          text: "个性化 & 我的",
+          items: [
+            { text: "🧭 功能服务", link: "/features/service" },
+            { text: "🎨 个性化设置", link: "/features/personalize" },
+            { text: "👤 个人中心", link: "/features/profile" },
           ],
         },
         {
