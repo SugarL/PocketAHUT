@@ -2,6 +2,7 @@
 
 <p align="center">
   <img src="/docs/public/logo.jpg" width="96" alt="口袋安小工 Logo" />
+  <img src="/docs/public/qrcode.jpg" width="96" alt="口袋安小工小程序二维码" />
 </p>
 
 <p align="center">
@@ -40,14 +41,6 @@
 | 网页端     | 可用（实验性） | 由 uni-app 编译的 H5 版本，可在支持的浏览器环境访问                                  |
 
 > 我们预计将会逐步停止小程序的开发和维护，请新用户优先选择 Android 客户端。
-
-### 微信小程序
-
-微信内搜索「口袋安小工」，或扫描下方二维码进入：
-
-<p align="center">
-  <img src="/docs/public/qrcode.jpg" width="160" alt="口袋安小工小程序二维码" />
-</p>
 
 ## 核心功能
 
