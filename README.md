@@ -37,9 +37,17 @@
 | Android    | 推荐使用 | 通过 [GitHub Releases](https://github.com/zreason-group/PocketAHUT/releases/) 下载 APK 安装包     |
 | 微信小程序 | 可用     | 微信内搜索「口袋安小工」                                                                          |
 | iOS        | 开发中   | 后续通过 [GitHub Releases](https://github.com/zreason-group/PocketAHUT/releases/) 分发 IPA 安装包 |
-| 网页端     | 开发中   | 暂未开放正式版本                                                                                  |
+| 网页端     | 可用（实验性） | 由 uni-app 编译的 H5 版本，可在支持的浏览器环境访问                                  |
 
 > 我们预计将会逐步停止小程序的开发和维护，请新用户优先选择 Android 客户端。
+
+### 微信小程序
+
+微信内搜索「口袋安小工」，或扫描下方二维码进入：
+
+<p align="center">
+  <img src="/docs/public/qrcode.jpg" width="160" alt="口袋安小工小程序二维码" />
+</p>
 
 ## 核心功能
 
@@ -50,6 +58,7 @@
 - [考试安排](./features/exam.md)：集中查看期末考、补考等考试安排。
 - [培养方案](./features/training-plan.md)：查看培养方案与课程修读要求。
 - [教材查询](./features/textbooks.md)：查询课程教材相关信息。
+- [校历](./features/calendar.md)：学期关键节点月历展示，并与当日课表叠加查看。
 
 ### 校园生活
 
@@ -68,10 +77,16 @@
 - [图书馆检索](./features/library.md)：检索馆藏图书，查看可借状态。
 - [校园地图](./features/map.md)：校园地点检索与导航。
 
+### 个性化 & 我的
+
+- [功能服务](./features/service.md)：底部「服务」Tab，按分类直达全部功能。
+- [个性化设置](./features/personalize.md)：首页功能区排序、字体、主题色系、安卓端设置与会员定时提醒。
+- [个人中心](./features/profile.md)：账号资料、绑定账号、关于我们、意见反馈与支持项目。
+
 ### 规划中
 
 - [校园卡](./features/card.md)：校园卡相关能力规划中。
-- [消息通知](./features/notifications.md)：消息通知能力规划中。
+- [消息通知](./features/notifications.md)：应用内公告已支持，完整推送能力规划中。
 
 ## 可绑定的学校系统
 
